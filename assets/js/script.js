@@ -1,8 +1,7 @@
 
 let now = moment();
-let currentDate = now.format('MMMM Do YYYY, h:mm:ss a');
+let currentDate = now.format('MMMM Do YYYY');
 let currentHour = now.get('hour')
-
 $("#displayDateTime").text(currentDate);
 
 
